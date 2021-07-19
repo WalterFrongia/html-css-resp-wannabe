@@ -132,3 +132,63 @@ img {
 }
 
 }
+
+/*IMPOSTAZIONE TABLET CON MEDIA QUERIES*/
+
+@media screen and (min-width: 768px) and (max-width: 960px){
+  
+  /*RESET*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}  
+
+/*BLOCCO LEZIONI*/
+.container{
+  background-color:rgb(149, 149, 235);
+  padding:20px 0;
+}
+
+/*BLOCCO STEPS*/
+.row {
+  width: 100%;
+  margin-top:0;
+}
+
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: left;
+  width: 32%;
+  padding:20px 0;
+}
+
+.container.grey {
+  padding-top: 20px;
+  background-color: rgb(141, 187, 230);
+}
+/*BLOCCO PERCHE'*/
+#why {
+  text-align: center;
+  padding-top:20px;
+  background-color:rgb(149, 149, 235);
+}
+
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+  width: 32%;
+  margin-top: 80px;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 40px;
+  text-decoration: none;
+}
+
+#why .row>.first hr,
+#why .row>.second hr{
+  display: none;
+}
+
+}
